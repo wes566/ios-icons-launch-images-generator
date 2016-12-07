@@ -1,7 +1,7 @@
 ## What is?
 Scripts to automatically generate iOS icons and launch images in the correct sizes. Also contains optimal asset catalogs with reused images for identical sizes.
 
-Tested with Xcode 7 and iOS 6-9.
+Tested with Xcode 8 and iOS 9-10.
 
 No dependencies.
 
@@ -30,9 +30,9 @@ Remove variants that are not needed (e.g. iPad Portrait) from the catalogs to op
 ## For best results
 
 `Default-Input.png`:
-* Landscape
-* Aspect ratio 4:3 (with content croppable to 16:9)
-* Highest quality if at least 2208px wide
+* Aspect ratio 1:1 (Square)
+* Make sure logo is placed within the center 1000x1000 pixels
+* Highest quality if at least 2208px wide/tall
 
 `Icon-Input.png`:
 
